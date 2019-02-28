@@ -12,7 +12,12 @@
         android:text="Sign out"
         android:id="@+id/btnSignOut"
         android:background="@drawable/button_states"
-        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtView"
+        android:layout_below="@id/btnSignOut"/>
 
 </RelativeLayout>
